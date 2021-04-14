@@ -1,5 +1,5 @@
  /*<<!--მთავარი გვერდი-->>*/
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 .head1 {margin-top: 20px;
 		margin-bottom: 20px;
@@ -54,6 +54,9 @@
 		 margin-left: 30px;
 		 margin-right: 30px;
 		 display: inline-block;}
+		 .featured{font-family: 'Roboto', sans-serif;
+		 font-weight: 500;
+		 color: #3D58A6;}
 
 .date {
 	width: 56px;
