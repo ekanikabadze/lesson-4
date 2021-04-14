@@ -1,0 +1,134 @@
+ /*<<!--მთავარი გვერდი-->>*/
+
+.head1 {margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 30px}
+.image-html {display: inline-block;
+			margin-right: 50px;
+			vertical-align: middle;
+}
+.navigacia {display: inline-block; 
+			vertical-align: middle; 
+			margin-right: 22px;
+			}
+.header-list{display: inline-block;
+			margin-right: 22px;
+			color:#3D58A6;
+			font-size: 22px}
+
+.act{
+	color: #EE4036;
+	
+	}
+	/*1 სექცია*/
+
+	.cont1{width: 1170px;
+		margin: 60px auto;
+		/*background-color: red;*/
+		}
+
+	/*2სექცია*/
+	.left-block { display: inline-block;
+		 		width: 570px;
+				background-color: #D3D3D3;
+				margin-top: 35px;
+				margin-right: 10px;
+				padding: 5px;}
+	.right-block {display: inline-block;
+				width: 570px;
+				margin-top: 35px;
+				background-color: #D3D3D3;
+				padding: 5px;}
+	.article-image {display: inline-block;
+		vertical-align: middle;
+		margin: 25px;}
+	.text-block{display: inline-block;
+				width: 350px;
+				vertical-align: middle;}
+	.div {width: 1px;
+		 height: 27px;
+		 background: #3D58A6;
+		 margin-left: 30px;
+		 margin-right: 30px;
+		 display: inline-block;}
+
+.date {
+	width: 56px;
+	height: 56px;
+	background-color: #3D58A6;
+	margin-top: 36px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	font-size:31px;
+	color: #fff;
+	padding-top:11px;
+	padding-bottom: 11px;
+	padding-left:11px;
+	padding-right: 11px;}
+
+.tve{
+	font-size: 20px;
+	color: #3D58A6;
+	margin-bottom: 14px;
+	margin-left: 10px;
+	
+}
+.satauri{
+	font-size: 18px;
+	margin-bottom: 20px; 
+margin-left: 10px;}
+
+.article-image1{
+	width:270px;
+	height: 210px;
+	margin: 10px 38px 27px 10px;
+	display: inline-block;
+	vertical-align: top; }
+.text-mar{display: inline-block;
+	vertical-align: top;
+	width: 850px;
+	font-size: 14px;
+	margin-top:10px;
+	margin-bottom: 16px;}
+	.texti{margin-bottom: 10px;}
+	.head2 {margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 30px}
+/*კონტაქტების გვერდი*/
+.contact{
+	width:1366px;
+	height: 570px;
+	margin:24px auto;
+	background-color: #E6E6E6
+}
+.contact-right{display: inline-block;
+			 width: 855px;
+			height:465px;
+			margin: 40px 95px 60px 60px;
+		vertical-align: top;
+		 }
+.contact-left{display: inline-block;
+			 width: 250px;
+			height:100px;
+		vertical-align: top;
+		margin-left: 100px;
+		margin-top:50px;
+		 }
+
+
+.inf{
+	color: #3D58A6; 
+}
+
+.seri{
+	font-size: 16px;
+	color: #808080;
+}
+.contact-heig{
+	margin-bottom: 5px;
+}
+.sakontaqto-text{
+	font-size: 20px;
+	color:#3D58A6;
+	margin-bottom: 10px;
+}
