@@ -86,11 +86,11 @@
 	
 }
 .satauri{
-	font-family: 'BPG ExtraSquare Mtavruli';
 	font-weight: bold;
 	font-size: 18px;
 	margin-bottom: 20px; 
-margin-left: 10px;}
+margin-left: 10px;
+font-family:'BPG ExtraSquare Mtavruli';}
 
 .article-image1{
 	width:270px;
@@ -98,17 +98,20 @@ margin-left: 10px;}
 	margin: 10px 38px 27px 10px;
 	display: inline-block;
 	vertical-align: top; }
-.text-mar{display: inline-block;
+.text-mar{ display: inline-block;
 	vertical-align: top;
 	width: 850px;
 	font-size: 14px;
 	margin-top:10px;
-	margin-bottom: 16px;}
+	margin-bottom: 16px;
+}
 	.texti{
-		margin-bottom: 10px;}
+		margin-bottom: 10px;
+		text-indent: 20px;
+	font-family:'BPG Banner ExtraSquare';}
 	.head2 {margin-top: 20px;
 		margin-bottom: 20px;
-		margin-left: 30px}
+		margin-left: 30px;}
 /*კონტაქტების გვერდი*/
 .contact{
 	width:1366px;
