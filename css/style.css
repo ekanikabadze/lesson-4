@@ -89,8 +89,8 @@
 	font-weight: bold;
 	font-size: 18px;
 	margin-bottom: 20px; 
-margin-left: 10px;
-font-family:'BPG ExtraSquare Mtavruli';}
+	margin-left: 10px;
+	font-family:'BPG ExtraSquare Mtavruli';}
 
 .article-image1{
 	width:270px;
@@ -108,7 +108,7 @@ font-family:'BPG ExtraSquare Mtavruli';}
 	.texti{
 		margin-bottom: 10px;
 		text-indent: 20px;
-	font-family:'BPG Banner ExtraSquare';}
+		font-family:'BPG Banner ExtraSquare';}
 	.head2 {margin-top: 20px;
 		margin-bottom: 20px;
 		margin-left: 30px;}
@@ -123,14 +123,14 @@ font-family:'BPG ExtraSquare Mtavruli';}
 			 width: 855px;
 			height:465px;
 			margin: 40px 95px 60px 60px;
-		vertical-align: top;
+			vertical-align: top;
 		 }
 .contact-left{display: inline-block;
 			 width: 250px;
 			height:100px;
-		vertical-align: top;
-		margin-left: 100px;
-		margin-top:50px;
+			vertical-align: top;
+			margin-left: 100px;
+			margin-top:50px;
 		 }
 
 
