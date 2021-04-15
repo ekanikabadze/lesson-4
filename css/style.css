@@ -1,5 +1,5 @@
  /*<<!--მთავარი გვერდი-->>*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 
 .head1 {margin-top: 20px;
 		margin-bottom: 20px;
@@ -13,11 +13,12 @@
 			margin-right: 22px;
 			}
 .header-list{display: inline-block;
+			font-family: 'BPG ExtraSquare Mtavruli';
 			margin-right: 22px;
 			color:#3D58A6;
 			font-size: 22px;
-		font-family: "BPG Nino Mtavruli Bold", sans-serif;
-		font-weight: 900;}
+			font-weight: 900;
+		}
 
 .act{
 	color: #EE4036;
@@ -31,6 +32,10 @@
 		}
 
 	/*2სექცია*/
+	.feat{
+		font-family: 'Zilla Slab Highlight';
+		text-transform: uppercase;
+		letter-spacing: 5px;}
 	.left-block { display: inline-block;
 		 		width: 570px;
 				background-color: #D3D3D3;
@@ -45,7 +50,8 @@
 	.article-image {display: inline-block;
 		vertical-align: middle;
 		margin: 25px;}
-	.text-block{display: inline-block;
+	.text-block{font-family: 'Orelega One', cursive;
+				display: inline-block;
 				width: 350px;
 				vertical-align: middle;}
 	.div {width: 1px;
@@ -54,9 +60,6 @@
 		 margin-left: 30px;
 		 margin-right: 30px;
 		 display: inline-block;}
-		 .featured{font-family: 'Roboto', sans-serif;
-		 font-weight: 500;
-		 color: #3D58A6;}
 
 .date {
 	width: 56px;
@@ -73,13 +76,18 @@
 	padding-right: 11px;}
 
 .tve{
+	font-family: 'BPG ExtraSquare Mtavruli';
 	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
 	color: #3D58A6;
 	margin-bottom: 14px;
 	margin-left: 10px;
 	
 }
 .satauri{
+	font-family: 'BPG ExtraSquare Mtavruli';
+	font-weight: bold;
 	font-size: 18px;
 	margin-bottom: 20px; 
 margin-left: 10px;}
@@ -96,7 +104,8 @@ margin-left: 10px;}
 	font-size: 14px;
 	margin-top:10px;
 	margin-bottom: 16px;}
-	.texti{margin-bottom: 10px;}
+	.texti{
+		margin-bottom: 10px;}
 	.head2 {margin-top: 20px;
 		margin-bottom: 20px;
 		margin-left: 30px}
