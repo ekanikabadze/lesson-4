@@ -1,5 +1,6 @@
  /*<<!--მთავარი გვერდი-->>*/
- @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url("https://cdn.web-fonts.ge/fonts/alkdots/css/alkdots.min.css");
 
 .head1 {margin-top: 20px;
 		margin-bottom: 20px;
@@ -19,6 +20,7 @@
 			font-size: 22px;
 			font-weight: 900;
 		}
+.latinuri-int{font-family: 'Monoton', cursive;}
 
 .act{
 	color: #EE4036;
@@ -26,35 +28,36 @@
 	}
 	/*1 სექცია*/
 
-	.cont1{width: 1170px;
+.cont1{width: 1170px;
 		margin: 60px auto;
 		/*background-color: red;*/
 		}
 
 	/*2სექცია*/
-	.feat{
+.feat{
 		font-family: 'Zilla Slab Highlight';
 		text-transform: uppercase;
 		letter-spacing: 5px;}
-	.left-block { display: inline-block;
+.left-block { display: inline-block;
 		 		width: 570px;
 				background-color: #D3D3D3;
 				margin-top: 35px;
 				margin-right: 10px;
 				padding: 5px;}
-	.right-block {display: inline-block;
+.right-block {display: inline-block;
 				width: 570px;
 				margin-top: 35px;
 				background-color: #D3D3D3;
 				padding: 5px;}
-	.article-image {display: inline-block;
+.article-image {display: inline-block;
 		vertical-align: middle;
 		margin: 25px;}
-	.text-block{font-family: 'Orelega One', cursive;
-				display: inline-block;
-				width: 350px;
-				vertical-align: middle;}
-	.div {width: 1px;
+.text-block{ display: inline-block;
+			font-family: 'La Belle Aurore', cursive;
+			width: 350px;
+				vertical-align: middle;
+			 }
+.div {width: 1px;
 		 height: 27px;
 		 background: #3D58A6;
 		 margin-left: 30px;
@@ -76,7 +79,7 @@
 	padding-right: 11px;}
 
 .tve{
-	font-family: 'BPG ExtraSquare Mtavruli';
+	font-family: "ALKDots", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 3px;
@@ -101,15 +104,17 @@
 .text-mar{ display: inline-block;
 	vertical-align: top;
 	width: 850px;
-	font-size: 14px;
+	font-size: 12px;
 	margin-top:10px;
 	margin-bottom: 16px;
 }
-	.texti{
+.texti{
 		margin-bottom: 10px;
 		text-indent: 20px;
-		font-family:'BPG Banner ExtraSquare';}
-	.head2 {margin-top: 20px;
+		font-family:'BPG Banner ExtraSquare';
+		 line-height: 1.8;
+	}
+.head2 {margin-top: 20px;
 		margin-bottom: 20px;
 		margin-left: 30px;}
 /*კონტაქტების გვერდი*/
@@ -146,7 +151,11 @@
 	margin-bottom: 5px;
 }
 .sakontaqto-text{
+	font-family: "ALKDots", sans-serif;
 	font-size: 20px;
 	color:#3D58A6;
 	margin-bottom: 10px;
+	 line-height: 2.0;
+	 text-align: left;
+
 }
