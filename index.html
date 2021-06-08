@@ -1,60 +1,172 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>მთავარი</title>
-        <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <!-- <div class=mteli-gverdi>  -->
-        <div class="head1">
-            <header>
-                <a class="image-html" href="index.html">
-                    <img  src="images/logo.svg" alt="logo" >
-                    </a>
-                <nav class="navigacia">
-                    <ul>
-                        <li class="header-list"><a class="act" href="index.html">მთავარი</a></li>
-                        <li class="header-list"><a href="news.html">სიახლეები</a></li>
-                        <li class="header-list"><a href="contact.html">კონტაქტი</a></li>
-                    </ul>
-                </nav>
-            </header>
+<html lang="en">
+<head>    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="final project eka nikabadze">
+  <meta name="keywords" content="e-learning">
+  <meta name="author" content="eka nikabadze">
+  <meta name="google" content="notranslate">
+  <!-- fb meta tags -->
+  <meta property="og:url"                content="https://ekanikabadze.github.io/final-proj/" />
+  <meta property="og:type"               content="e-learning" />
+  <meta property="og:title"              content="distance learning"/>
+  <meta property="og:description"        content="The Opportunities of distance learning" />
+  <meta property="og:image"              content="https://ekanikabadze.github.io/final-proj/images/logofortags3.png" />
+  <title>e-learning</title>
+  <script src="https://kit.fontawesome.com/50f2ab01f1.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="icon" href="images/headerlogogr.png"  sizes="16x16">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+    <header class="fix">      
+      <nav class="nav">
+        <div id="burger-menu" class="burger-icon">
+          <i class="fas fa-bars"></i>
         </div>
-            <!-- 1 სექცია -->
-            <section>
-                <div class=cont1>
-                    <img src="images/Banner-image.svg" alt="banner">
-                </div>                    
-            </section>
-            <!-- 2სექცია -->
-            <div class="cont1">
-                <h3 class="2ssat"><span class="feat" >featured</span> / viw all featured media</h3>
-                <div class="left-block"> 
-                    <h4 class="latinuri-int">RESPONSIVE WEB DESIGN</h4>
-                    <img class="article-image" src="images/Group 10.png" alt="group10">
-                    <p class= "text-block">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation xvxvxvx xv xvx vx xc vxc vx vx vxcv xcvx.</p>
-                </div><!-- 
-                --><div class="right-block">
-                        <h4 class="latinuri-int">APP DEVELOPMENT</h4>
-                        <img class="article-image" src="images/Group 10.png" alt="group10">
-                        <p class= "text-block">Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.</p>
-
-
-                	</div>
+        <div class="space"></div>
+        <a class="logo-menu" href="index.html">
+          <img class="logo-image" src="images/logo3.png" alt="logo">
+        </a>
+        <ul id="menu" class="menu-ul" >
+          <li class="nav-a active"><a  href="index.html">მთავარი</a></li>
+          <li class="nav-a"><a href="gundi.html">გუნდი</a></li>
+          <li class="nav-a"><a href="kursebi.html">კურსები</a></li>
+          <li class="nav-a"><a href="kontaqti.html">კონტაქტი</a></li>
+          <li class="nav-a number active"><a href="tel:+99532222222">+99532222222</a></li>
+        </ul>          
+        <div class="space"></div>
+      </nav>
+    </header>
+    <section >
+      <div class="container-mt1">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/1carus1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block carousel-back">
+                <a href="kursebi.html"><h5 class="car-text-title">ჩვენი კურსები</h5></a>                                          
+              </div>
             </div>
-            
-
-	   <footer>
-            <div class="head1">
-                <img src="images/fb.svg" alt="fb-icon"> 
-                <div class="div"></div>
-                <img src="images/Youtube.svg" alt="youtube-icon"> 
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/10car1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block carousel-back">
+                <a href="gundi.html"><h5 class="car-text-title">ჩვენი გუნდი</h5></a>                
+              </div>
             </div>
-       </footer>       
-	</body>
+            <div class="carousel-item">
+              <img src="images/3car1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block carousel-back">
+                <a href="kontaqti.html"><h5 class="car-text-title">დაგვიკავშირდით</h5></a>                
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+      </div>       
+    </section>
+    <section class="why-we ">
+      <div class="container-mt2 shadow-lg p-3 mb-5 bg-body rounded">
+        <div class="cont-mt2-left">
+          <h3 class="head-text">სამი მიზეზი ჩვენს ასარჩევად</h3>
+            <div class="mt2-row">
+              <div class="mt2-left-icon"><i class="fas fa-users icons "></i></div>
+              <div class="mt2-left-text">
+                <h4 class="head-text1">პროფესიონალი ტრენერები</h4>
+                <p class="text22">პროფესიონალიზმი, პასუხისმგებლობა და შედეგებზე ორიენტირებული სწავლება არის ჩვენი პრიორიტეტი.</p>
+              </div>
+            </div>
+            <div class="mt2-row">
+              <div class="mt2-left-icon"><i class="fas fa-certificate icons"></i></div>
+              <div class="mt2-left-text p-0">
+                <h4 class="head-text1">სერტიფიკატი</h4>
+                <p class="text22">სერთიფიკატი აღიარებულია დამსაქმებლებს შორის და წარმოადგენს საკმარის პირობას  საზღვაგარეთ მასწავლებლის ადგილის მისაღებად.</p>
+              </div>
+            </div>
+            <div class="mt2-row p-0">
+              <div class="mt2-left-icon"><i class="fas fa-chart-bar icons"></i></div>
+              <div class="mt2-left-text">
+                <h4 class="head-text1">სამი ლექცია უფასოდ</h4>
+                <p class="text22">შეთავაზებით სარგებლობა შეუძლია ყველა მომხმარებელს, რომლებიც დარეგისტრირებული არიან ჩვენს სისტემაში. </p>
+              </div>
+            </div>            
+        </div>
+        <div class="container-mt2-rg  shadow-lg p-2 bg-body rounded  p-2 ">
+          <form action="#" class="form-fill">
+            <div class="form1">
+              <label for="name"></label>
+              <input class="form-block" type="text" id="name" name="name/surname" placeholder="name/surname..." required>
+            </div>
+            <div class="form1">
+              <label for="mail"></label>
+              <input class="form-block" type="email" id="mail" name="e-mail" placeholder="e-mail..." required>
+            </div>
+            <div class="form1">
+              <label for="pwd"></label>
+              <input class="form-block" type="password" id="pwd" name="pwd" minlength="8" placeholder="password..." required><br><br>
+            </div>
+            <button class=" color-change1 but-send" type="submit">Send <i class="far fa-paper-plane"></i></button>
+          </form>			
+        </div>
+      </div>      
+    </section>
+    <section class="why-we">
+      <div class="mt-sect3-tex shadow-lg p-3 mb-5 bg-body rounded">
+        <h3 class="head-text">ელექტრონული სწავლების მეთოდები/მიდგომები</h3>
+        <p class="ord-text">ელექტრონული სწავლების ცენტრი ხელმძღვანელობს ელექტრონული სწავლების ორი ზოგადი მიდგომით: თვითგანვითარებადი (საკუთარი ტემპით სწავლება/თვითსწავლება) და ფასილიტატორული/ინსტრუქტორის გაძღოლით.
+          ხშირად ელ.სწავლების კურსები აერთიანებს ორივე მიდგომას. განვიხილოთ თითოეული მათგანი:
+          საკუთარი ტემპით სწავლება/თვითსწავლება
+          მსმენელები დარეგისტრირდებიან ონლაინ კურსზე, რომელიც შესაძლებეილია მოიცავდეს დამატებით რესურსებსა და შეფასებებს.
+          კურსები განთავსებულია ვებ-გვერდზე: #######.ge და მსმენელებს შეუძლიათ ისწავლონ აღნიშნულ ონლაინ პლათფორმაზე. მსმენელებს საკუთარი ინდივიდუალური საჭიროებებიდან და ინტერესებიდან გამომდინარე შეუძლიათ თავისუფლად განსაზღვრონ სწავლების დრო.
+          ელ.სწავლების შინაარსის შემუშავება ხდება სასწავლო მიზნების შესაბამისად სხვადასხვა მედიაელემენტის გამოყენებით, როგორიცაა: ტექსტი, გრაფიკა, აუდიო და ვიდეო. მან უნდა უზრუველყოს, რაც შეიძლება მეტად ეფექტიანი სწავლება (ახსნებით, მაგალითებით, ინტერაქტივით, უკუკავშირებით, ტერმინოლოგიით და ა. შ) იმისათვის, რომ მსმენელი გახადოს დამოუკიდებელი შესწავლაში. ამასთან, ზოგიერთი სახის მხარდაჭერა, როგორიცაა
+          ელ.სწავლება საუკეთესო არჩევანია, როცა ...
+          მეილზე დაფუძნებული ტექნიკური მხარდაჭერა ან ტუტორის დახმარება, შესაძლებელია გაეწიოს მსმენელს.
+          როდესაც თვითსწავლება ხდება ინტერნეტით, მსმენელის სწავლის პროცესის მონიტორინგი შესაძლებელია ცენტრალურ მონაცემთა ბაზაში.
+        </p>
+      </div>      
+    </section>
+    <footer class="footer p-0">
+      <div class="nav1 p-0">
+        <div class="space"></div>
+        <a class="logo-menu" href="index.html">
+          <img class="logo-image" src="images/logo3.png" alt="logo">
+        </a>
+        <div class="navigacia1">
+          <div class=" color-change1 foot-nav p-0">
+            <ul class="p-0">
+              <li class="menu1"><a  href="index.html">მთავარი</a></li>
+              <li class="menu1"><a href="gundi.html">გუნდი</a></li>
+              <li class="menu1"><a href="kursebi.html">კურსები</a></li>
+              <li class="menu1"><a href="kontaqti.html">კონტაქტი</a></li>
+            </ul>
+          </div>
+          <div class="foot-social-icon">
+            <i class="color-change fab fa-facebook-square foot-fa"></i>
+            <i class="color-change fab fa-instagram-square foot-fa"></i>
+            <i class="color-change fab fa-twitter foot-fa"></i>
+            <i class="color-change fab fa-youtube foot-fa"></i>
+            <i class="color-change fab fa-linkedin foot-fa"></i>
+          </div>                
+        </div>            
+      </div>      
+    </footer>   
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
 </html>
